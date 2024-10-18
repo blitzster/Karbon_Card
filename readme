@@ -35,9 +35,3 @@ pip install Flask
 python app.py
 
 Access the application: Open your web browser and go to http://127.0.0.1:5000/.
-
-
-
-
-
-Feel free to copy and paste this into your README file, and modify any sections as needed!
