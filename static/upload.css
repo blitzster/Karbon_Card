@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e1e1; /* Light background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100vh; /* Full height */
+}
+
+.card {
+    background-color: #b7b4b4;
+    border-radius: 8px;
+    padding: 30px; /* Increase padding for a larger card */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 500px; /* Maximum width of the card (increased) */
+    width: 90%; /* Full width on smaller screens */
+    text-align: center; /* Center text inside the card */
+}
+
+h1 {
+    color: #505050; /* Dark text color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+input[type="file"] {
+    margin: 10px 0; /* Margin for spacing */
+    padding: 5px; /* Decrease padding for smaller input */
+    border: 1px solid #000; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    width: 70%; /* Decrease width for the file input */
+}
+
+button {
+    background-color: lightcoral; /* Button background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
