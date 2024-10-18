@@ -7,8 +7,6 @@ This Flask web application allows users to upload a `data.json` file, which is t
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
 - [Setup Instructions](#setup-instructions)
-- [How to Use](#how-to-use)
-- [License](#license)
 
 ## Features
 - Upload a JSON data file.
@@ -27,11 +25,11 @@ This Flask web application allows users to upload a `data.json` file, which is t
    git clone <repository-url>
    cd flask_financial_analysis
 
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+2. python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-pip install Flask
+3. pip install Flask
 
-python app.py
+4. python app.py
 
-Access the application: Open your web browser and go to http://127.0.0.1:5000/.
+5. Access the application: Open your web browser and go to http://127.0.0.1:5000/.
