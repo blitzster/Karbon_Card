@@ -1,0 +1,43 @@
+# Flask Web App for Financial Analysis
+
+This Flask web application allows users to upload a `data.json` file, which is then processed using a predefined `model.py` to generate and display results.
+
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Setup Instructions](#setup-instructions)
+- [How to Use](#how-to-use)
+- [License](#license)
+
+## Features
+- Upload a JSON data file.
+- Process the uploaded file using the `model.py`.
+- Display the results in a user-friendly format.
+
+## Technologies Used
+- Flask: A lightweight WSGI web application framework.
+- HTML/CSS: For front-end design.
+- JSON: For data handling.
+
+
+## Setup Instructions
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   cd flask_financial_analysis
+
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+pip install Flask
+
+python app.py
+
+Access the application: Open your web browser and go to http://127.0.0.1:5000/.
+
+
+
+
+
+Feel free to copy and paste this into your README file, and modify any sections as needed!
